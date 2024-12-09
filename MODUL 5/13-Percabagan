@@ -1,0 +1,31 @@
+# percabangan 
+# percabangan 1 Kondisi
+
+# struktur percabangan
+"""
+   1.if -nya
+   2.kondisinya, statment yang harus
+   terpenuhi agar aksi dijalankan
+   3.aksinya
+"""
+
+nama = input("masukan nama anda! ")
+
+# percabangan inlain
+# if <kondisi> : <aksi>
+# if nama == "idok": print("Selamat Datang")
+# print("Terima Kasih")
+
+# percabangan dengan idensitas
+if nama == "idok":
+    print("selamat datang")
+    print("selamat belajar")
+print("Terima Kasih")
+
+# percabangan dengan Else Statment
+if nama == "idok":
+    print("Selamat Datang")
+else:
+    print("anda bukan idok")
+
+print("program berakhir")
