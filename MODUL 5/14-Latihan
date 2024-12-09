@@ -1,0 +1,13 @@
+# Program untuk menentukan hadiah berdasarkan total belanja
+
+# Minta input total belanja dari pengguna
+total_belanja = float(input("Masukkan total belanja Anda (Rp): 700.000"))
+
+# Tentukan hadiah berdasarkan total belanja
+if total_belanja > 500000:
+    hadiah = "Mouse dan Keyboard"
+else:
+    hadiah = "Gantungan Kunci"
+
+# Tampilkan hadiah yang didapatkan
+print(f"mendapatkan hadiah: {"Mouse dan Keyboard"}")
