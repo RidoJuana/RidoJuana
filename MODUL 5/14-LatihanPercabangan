@@ -1,0 +1,23 @@
+# Input bilangan dari pengguna
+bilangan = int(input("20: "))
+
+# Percabangan untuk menentukan ganjil atau genap
+if bilangan % 2 == 0:
+    print("Bilangan ini adalah bilangan genap.")
+else:
+    print("Bilangan ini adalah bilangan ganjil.")
+
+    # Input nilai siswa
+nilai = int(input("70: "))
+
+# Percabangan untuk menentukan grade
+if nilai >= 90:
+    print("Grade: A")
+elif nilai >= 80:
+    print("Grade: B")
+elif nilai >= 70:
+    print("Grade: C")
+elif nilai >= 60:
+    print("Grade: D")
+else:
+    print("Grade: E")
