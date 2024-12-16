@@ -1,0 +1,32 @@
+nama = "Budi"
+umur = 25
+print("Nama saya adalah {budi} dan umur saya {25} tahun.".format(nama, umur))
+
+nama = "Budi"
+umur = 25
+print(f"Nama saya adalah {budi} dan umur saya {25} tahun.")
+
+#include <stdio.h>
+
+int main() {
+    char nama[] = "Budi";
+    int umur = 25;
+
+    printf("Nama saya adalah budi dan umur saya 25 tahun.\n", nama, umur);
+    return 0;
+}
+
+public class FormatString {
+    public static void main(String[] args) {
+        String nama = "Budi";
+        int umur = 25;
+
+        // Menggunakan printf
+        System.out.printf("Nama saya adalah budi dan umur saya 25 tahun.\n", nama, umur);
+
+        // Menggunakan String.format
+        String hasil = String.format("Nama saya adalah budi dan umur saya 25 tahun.", nama, umur);
+        System.out.println(hasil);
+    }
+}
+
