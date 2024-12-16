@@ -1,0 +1,8 @@
+# Mendeklarasikan string
+teks = "Halo, selamat datang di dunia pemrograman!"
+
+# Menggunakan fungsi dasar string
+print("Panjang string:", len(teks))  # Menampilkan panjang string
+print("Huruf pertama:", teks[0])  # Mengakses huruf pertama
+print("Huruf terakhir:", teks[-1])  # Mengakses huruf terakhir
+print("Apakah string mengandung 'selamat'? ", 'selamat' in teks)  # Mencari substring
