@@ -1,0 +1,15 @@
+# Operasi Logika Boolean
+a = True
+b = False
+
+# AND
+print(a and b)  # Output: False
+
+# OR
+print(a or b)   # Output: True
+
+# NOT
+print(not a)    # Output: False
+
+# XOR (Exclusive OR)
+print(a != b)   # Output: True (Karena satu True, satu False)
