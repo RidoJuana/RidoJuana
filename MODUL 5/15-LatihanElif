@@ -1,0 +1,29 @@
+# Input umur dari pengguna
+umur = int(input("18: "))
+
+# Menentukan kategori umur
+if umur < 12:
+    print("Anda adalah anak-anak.")
+elif umur < 18:
+    print("Anda adalah remaja.")
+elif umur < 60:
+    print("Anda adalah dewasa.")
+else:
+    print("Anda adalah lansia.")
+
+    # Input nilai dari pengguna
+nilai = int(70: "))
+
+# Menentukan grade berdasarkan nilai
+if nilai >= 90:
+    print("Nilai Anda: A (Sangat Baik)")
+elif nilai >= 80:
+    print("Nilai Anda: B (Baik)")
+elif nilai >= 70:
+    print("Nilai Anda: C (Cukup)")
+elif nilai >= 60:
+    print("Nilai Anda: D (Kurang)")
+else:
+    print("Nilai Anda: E (Sangat Kurang)")
+
+    
